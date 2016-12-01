@@ -19,7 +19,7 @@ public class Calc {
 			}
 		}
 		double modifiedAvg = 0.0;
-		modifiedAvg = (sum * 1.0) / length;
+		modifiedAvg = (sum * 1.0) / ((double)length);
 		return modifiedAvg;
 	}
 
